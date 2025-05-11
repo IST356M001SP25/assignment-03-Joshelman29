@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  josh elman
+Sudent Email:  jdelman@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+In this assignment, we used streamlit package which gives us a browsable api to upload our text file containg the packages and generates a json file. We created three scripts and in our one_package scripts, we created a method to initialize the streamlit server and we gave an input line and streamlit gave us the list of items dictionary with their respective counts. In our process_file script, we wrote another function which takes a text file, counts the items, puts them in a dictionoary and this dictionary is added in a list which is then saved as json object. The script process_files is similar to above script but it takes multiple files on at a time and creates a json file. The code at this level is very difficult to grasp!
